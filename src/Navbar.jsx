@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import paypalLogo from './assets/3119338.png';
+import paypalLogo from './assets/pay.png';
 import notificationLogo from './assets/p.png';
 import settingsLogo from './assets/p2.png';
 import searchLogo from './assets/Vector.png'
@@ -16,9 +16,11 @@ const Navbar = () => {
       </div>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/finance">Finance</a>
+        <a href="/finance">Finances</a>
         <a href="/send">Send and Request</a>
-        <a href="/activity">Activity</a>
+        <a href="/finance">Deals</a>
+        <a href="/finance">Wallet</a>
+        <a href="/activity" className="navbar-link activity">Activity</a>
         <a href="/help">Help</a>
       </div>
       <div className="icons">

@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: blue;
-    padding: 10px;
+    padding: 20px;
   }
   
   .logo img {
@@ -16,8 +16,9 @@
   
   .links a {
     color: white;
+
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 32px;
   }
   
   .icons {
@@ -94,7 +95,19 @@
     background-color: rgb(67, 134, 228);
     color: white;
   }
-  
+  .navbar-link.activity {
+    background-color:  rgb(38, 159, 215);
+    border-radius: 5px;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
   
   
   
