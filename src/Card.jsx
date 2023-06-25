@@ -11,7 +11,7 @@ const cardsData = [
 const Card = () => {
   return (
     <div className="card-container">
-      <h4>Completed</h4>
+      <h4>Completed <br/>this week</h4>
       <h5>This Week</h5>
       {cardsData.map((card, index) => (
         <div className="card" key={index}>
