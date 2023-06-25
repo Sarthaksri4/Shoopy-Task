@@ -1,3 +1,5 @@
+
+@import url('https://fonts.cdnfonts.com/css/rockwell-nova');
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -51,16 +53,21 @@
 .card-text {
   margin-top: -8px;
   width: 300px;
+  font-weight: bold;
+    font-family: 'Rockwell Nova Extra Bold', sans-serif;
 }
 
 .additional-text {
   margin-top: -50px;
   margin-left: 90px;
   font-size: 15px;
+  font-family: 'Rockwell Nova Extra Bold', sans-serif;
 }
 
 .rs-amount {
   margin-top: -60px;
   margin-left: auto;
-  margin-right: -430px; /* Adjust the margin-right value as needed */
+  margin-right: -430px; 
+  font-family: 'Rockwell Nova Extra Bold', sans-serif;
+  font-weight: bold;
 }

@@ -3,10 +3,10 @@ import './Card.css';
 import logo2 from './assets/logo2.png';
 
 const cardsData = [
-  { logo: logo2, text: 'Name.com Inc', amount: '-$9.89', date: 'June 22' },
-  { logo: logo2, text: 'Name.com Inc', amount: '-$8.99', date: 'June 21' },
-  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'June 20' },
-  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'June 19' } // Add this additional card
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.89', date: 'Jun 22' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$8.99', date: 'Jun 21' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'Jun 20' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'Jun 19' } // Add this additional card
 ];
 
 const Card = () => {

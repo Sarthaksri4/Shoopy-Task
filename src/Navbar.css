@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/rockwell-nova');
+@import url('https://fonts.cdnfonts.com/css/calibri-light');
+/* {'style': 'regular', 'font': ['rockwell', 'calibri', 'verdana']} */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,6 +27,11 @@
   .links a {
     color: white;
 
+    font-family: 'Rockwell Nova', sans-serif;
+    font-family: 'Rockwell Nova Cond', sans-serif;
+    font-family: 'Rockwell Nova Light', sans-serif;
+    font-family: 'Rockwell Nova Cond Light', sans-serif;
+    font-family: 'Rockwell Nova Extra Bold', sans-serif;
     text-decoration: none;
     margin-right: 32px;
     margin-top: 5px;
@@ -68,6 +76,8 @@
     outline: none;
     background-color: transparent;
     width: 100%;
+    font-weight: bold;
+    font-family: 'Rockwell Nova Extra Bold', sans-serif;
   }
   .download-icon {
      margin-top: 50px;
@@ -96,6 +106,7 @@
   
   .filter-buttons {
     display: flex;
+    
   }
   
   .filter-button {
@@ -106,14 +117,23 @@
     margin-right: 10px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 20px
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rockwell Nova', sans-serif;
+    font-family: 'Rockwell Nova Cond', sans-serif;
+    font-family: 'Rockwell Nova Light', sans-serif;
+    font-family: 'Rockwell Nova Cond Light', sans-serif;
+    font-family: 'Rockwell Nova Extra Bold', sans-serif;
     
   }
   .filter-button.date {
     background-color:#D1F2FFff;
     color: #505E95ff;
-    border: none;
-
+    border: none;font-family: 'Rockwell Nova', sans-serif;
+    font-family: 'Rockwell Nova Cond', sans-serif;
+    font-family: 'Rockwell Nova Light', sans-serif;
+    font-family: 'Rockwell Nova Cond Light', sans-serif;
+    font-family: 'Rockwell Nova Extra Bold', sans-serif;
   }
   .navbar-link.activity {
     background-color:   #27419Bff;
@@ -128,6 +148,7 @@
 
 
 }
+
   
   
   
