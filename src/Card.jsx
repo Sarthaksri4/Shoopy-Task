@@ -3,16 +3,16 @@ import './Card.css';
 import logo2 from './assets/logo2.png';
 
 const cardsData = [
-  { logo: logo2, text: 'Name.com Inc' },
-  { logo: logo2, text: 'Name.com Inc' },
-  { logo: logo2, text: 'Name.com Inc' }
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.89', date: 'June 22' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$8.99', date: 'June 21' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'June 20' },
+  { logo: logo2, text: 'Name.com Inc', amount: '-$9.99', date: 'June 19' } // Add this additional card
 ];
 
 const Card = () => {
   return (
     <div className="card-container">
-      <h4>Completed <br/>this week</h4>
-      <h5>This Week</h5>
+      <h4>Completed <br/><br/>This week</h4>
       {cardsData.map((card, index) => (
         <div className="card" key={index}>
           <div className="card-content">
@@ -20,9 +20,9 @@ const Card = () => {
               <img src={card.logo} alt={`Logo ${index}`} className="card-logo" />
               <p className="card-text">{card.text}</p>
             </div>
-            <p className="additional-text">Additional Text</p>
+            <p className="additional-text">{card.date} . Automatic Payment</p>
           </div>
-          <div className="rs-amount">Rs200</div>
+          <div className="rs-amount">{card.amount}</div>
         </div>
       ))}
     </div>

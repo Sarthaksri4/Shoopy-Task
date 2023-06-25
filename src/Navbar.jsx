@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import paypalLogo from './assets/pay.png';
-import notificationLogo from './assets/p.png';
-import settingsLogo from './assets/p2.png';
+import notificationLogo from './assets/p2.png';
+import settingsLogo from './assets/p.png';
 import searchLogo from './assets/Vector.png';
 import downloadIcon from './assets/download.png';
 
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="icons">
           <img src={notificationLogo} alt="Notification Icon" />
           <img src={settingsLogo} alt="Settings Icon" />
-          <a href="/logout">Logout</a>
+          <a href="/logout">LOGOUT</a>
         </div>
       </nav>
         <img src={downloadIcon} alt="Download Icon" className="download-icon" />

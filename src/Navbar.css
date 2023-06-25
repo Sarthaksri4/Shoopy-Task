@@ -11,7 +11,8 @@
     margin-left: 300px;
   }
   .logo {
-    margin-right: 30px; 
+    margin-left: 30px; 
+    margin-top: 9px;
   }
   
   
@@ -79,7 +80,7 @@
   .filter {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 380px;
   }
   
@@ -116,9 +117,9 @@
   }
   .navbar-link.activity {
     background-color:   #27419Bff;
-    border-radius: 5px;
+    border-radius: 40px;
     width: 5rem;
-    height: 2rem;
+    height: 3rem;
     text-align: center;
     display: flex;
     justify-content: center;
