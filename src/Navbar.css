@@ -1,5 +1,4 @@
 @import url('https://fonts.cdnfonts.com/css/rockwell-nova');
-@import url('https://fonts.cdnfonts.com/css/calibri-light');
 /* {'style': 'regular', 'font': ['rockwell', 'calibri', 'verdana']} */
 .navbar {
     display: flex;
@@ -27,10 +26,6 @@
   .links a {
     color: white;
 
-    font-family: 'Rockwell Nova', sans-serif;
-    font-family: 'Rockwell Nova Cond', sans-serif;
-    font-family: 'Rockwell Nova Light', sans-serif;
-    font-family: 'Rockwell Nova Cond Light', sans-serif;
     font-family: 'Rockwell Nova Extra Bold', sans-serif;
     text-decoration: none;
     margin-right: 32px;
@@ -119,20 +114,13 @@
     cursor: pointer;
     margin-top: 20px;
     font-weight: bold;
-    font-family: 'Rockwell Nova', sans-serif;
-    font-family: 'Rockwell Nova Cond', sans-serif;
-    font-family: 'Rockwell Nova Light', sans-serif;
-    font-family: 'Rockwell Nova Cond Light', sans-serif;
     font-family: 'Rockwell Nova Extra Bold', sans-serif;
     
   }
   .filter-button.date {
     background-color:#D1F2FFff;
     color: #505E95ff;
-    border: none;font-family: 'Rockwell Nova', sans-serif;
-    font-family: 'Rockwell Nova Cond', sans-serif;
-    font-family: 'Rockwell Nova Light', sans-serif;
-    font-family: 'Rockwell Nova Cond Light', sans-serif;
+    border: none;
     font-family: 'Rockwell Nova Extra Bold', sans-serif;
   }
   .navbar-link.activity {
